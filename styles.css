@@ -1,0 +1,76 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section#body {
+  background-color: #171710;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 300vh;
+}
+
+header {
+  height: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+header nav {
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+/* NAVBAR */
+
+section.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section.main nav a {
+  padding-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+section.main nav.nav-social {
+  display: flex;
+  gap: 14px;
+}
+
+section.main nav.nav-social div.switch {
+  margin-left: 30px;
+}
+
+/* PRODUCTS */
+section#product-library {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  align-items: center;
+  margin: 50px 50px 10% 10%;
+  justify-content: center;
+  background-color: #373737;
+  border-radius: 14px;
+  height: max-content;
+  width: 80%;
+  height: max-content;
+}
+
+section#product-library div.card {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #1a1a1a;
+}
